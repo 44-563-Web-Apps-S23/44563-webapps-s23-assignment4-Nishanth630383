@@ -28,3 +28,29 @@ color: black;
     font-size: 13.7;
     color: rgb(23, 213, 106);
 }
+#actor{
+    margin-top: 10px;
+    margin-left: 25px;
+    border: 5px  solid black;
+    border-collapse: separate;
+    box-sizing: border-box;
+   
+   
+}
+#actor th{
+    color:rgb(68, 13, 250);
+    text-align: center;
+    padding: 20px;
+}
+#actor td{
+    color: rgb(249, 9, 9);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+#actor tr:nth-child(odd){
+    background: repeating-linear-gradient(45deg,rgb(66, 197, 14),rgb(66, 197, 14) 10px,yellow 10px,yellow 20px);
+}
+#actor tr:nth-child(even){
+    background: repeating-linear-gradient(45deg,rgb(14, 170, 197),rgb(14, 170, 197) 10px,lightgoldenrodyellow 10px,lightgoldenrodyellow 20px);
+}
