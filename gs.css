@@ -28,6 +28,16 @@ color: black;
     font-size: 13.7;
     color: rgb(23, 213, 106);
 }
+.imp:hover{
+    
+    text-shadow:2px 2px 3px darkgoldenrod;
+}
+.judge:hover{
+    text-shadow: 2px 2px 3px black;
+}
+.poor_man:hover{
+    text-shadow: 2px 2px 3px pink;
+}
 #actor{
     margin-top: 10px;
     margin-left: 25px;
@@ -49,8 +59,8 @@ color: black;
     font-weight: bold;
 }
 #actor tr:nth-child(odd){
-    background: repeating-linear-gradient(45deg,rgb(66, 197, 14),rgb(66, 197, 14) 10px,yellow 10px,yellow 20px);
+    background: yellow 20px;
 }
 #actor tr:nth-child(even){
-    background: repeating-linear-gradient(45deg,rgb(14, 170, 197),rgb(14, 170, 197) 10px,lightgoldenrodyellow 10px,lightgoldenrodyellow 20px);
+    background: rgb(14, 170, 197);
 }
