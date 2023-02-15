@@ -64,3 +64,24 @@ color: black;
 #actor tr:nth-child(even){
     background: rgb(14, 170, 197);
 }
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+ul.navbar-horizontal li {
+    float:left; 
+    color:#000;
+    background-color:rgb(18, 217, 134)
+    
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+    text-align: center;
+    }
+    ul.navbar-horizontal a:hover {
+    background-color: #555;
+    color:white;
+    }
